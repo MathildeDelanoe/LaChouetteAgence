@@ -825,6 +825,32 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+#bloc-2-services h2{
+    width:70%;
+    margin:auto;
+}
+
+#bloc-4-portfolio h2{
+    width:45%;
+    margin:auto;
+}
+
+blockquote
+{
+    width:90%;
+    margin:auto;
+    font-size: 1.5em;
+    border: none;
+    font-style: italic;
+    color:rgba(0,0,0,0.7);
+    padding-bottom:0;
+}
+
+figcaption{
+    color:rgba(0,0,0,0.7);
+}
+
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
