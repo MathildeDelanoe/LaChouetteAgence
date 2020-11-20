@@ -683,6 +683,7 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    border:1px solid blue;
 }
 
 .h1 {
@@ -771,7 +772,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    /* background-color: #F3976C; */
 }
 
 .tc-white {
@@ -822,7 +823,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 #bloc-2-services h2{
@@ -1065,4 +1066,9 @@ figcaption{
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+#bloc-3-what-i-do{
+    /* width:50%;
+    height:auto; */
 }
