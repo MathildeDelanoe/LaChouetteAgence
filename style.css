@@ -683,7 +683,6 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-    border:1px solid blue;
 }
 
 .h1 {
@@ -772,7 +771,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    /* background-color: #F3976C; */
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -875,13 +874,13 @@ figcaption{
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1066,9 +1065,4 @@ figcaption{
     .bloc-mob-center-text {
         text-align: center;
     }
-}
-
-#bloc-3-what-i-do{
-    /* width:50%;
-    height:auto; */
 }
