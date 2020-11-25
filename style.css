@@ -775,7 +775,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    /* color: #F3976C!important; */
+    color: #F7B99B!important;
+    font-weight:bold;
 }
 
 .btn-atomic-tangerine {
@@ -898,10 +900,10 @@ figcaption{
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /* .bloc {
         padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+        padding-right:constant(safe-area-inset-right);
+    } */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -910,8 +912,8 @@ figcaption{
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left); */
+        /* padding-right: constant(safe-area-inset-right); */
     }
 }
 
@@ -1065,4 +1067,30 @@ figcaption{
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.annuaireDeroulant
+{
+    height:100px;
+    overflow: auto;
+}
+
+#bloc-5-cta .row
+{
+    width:70%;
+    margin: auto;
+}
+
+#bloc-8 .row .row:last-child 
+{
+    width:80%;
+    margin:auto;
+    margin-top:10px;
+}
+
+footer h3,footer h2
+{
+    font-size:0.9em;
+    margin-top:0;
+    text-transform: none;
 }
